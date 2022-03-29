@@ -1,0 +1,81 @@
+/*    Victor Roque lage                       RA: 03221062 
+        4 – DESAFIO!
+    A) Crie um programa HTML/CSS que resulte algo parecido com a imagem abaixo:*/
+
+.div_a{
+    height: 300px;
+    width: 70%;
+    background-color: #915c5c;
+    align-items: center;
+    border: 18px black solid;
+}
+.div_a .div_b{
+    background-color: white;
+    color: blue;
+    height: 150px;
+    border: 12px black solid;
+    margin-left: 50px;
+    margin-top: 60px;
+    margin-right: 50px;
+}
+p{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.div_c{
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.div_c .div_d{
+    background-color: blue;
+    width: 80%;
+    margin-top: 80px;
+    height: 37px;
+}
+.div_c .div_e{
+    background-color: purple;
+    width: 40%;
+    height: 37px;
+}
+.div_c .div_f{
+    background-color: green;
+    width: 60%;
+    height: 37px;
+}
+.div_c .div_g{
+    background-color: yellow;
+    width: 50%;
+    height: 37px;
+}
+.div_h{
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.div_h .div_i{
+    background-color: red;
+    width: 45%;
+    height: 37px;
+}
+.div_h .div_j{
+    background-color: rgb(2, 161, 122);
+    width: 20%;
+    height: 37px;
+}
+.div_h .div_k{
+    background-color: rgb(0, 255, 0);
+    width: 35%;
+    height: 37px;
+}

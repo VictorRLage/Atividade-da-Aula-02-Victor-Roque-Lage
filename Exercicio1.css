@@ -1,0 +1,30 @@
+/*    Victor Roque lage                       RA: 03221062
+        1 - Crie um programa HTML/CSS, onde:
+    A) Tenha uma div, que:
+A1) Tenha a cor de fundo vermelha;
+A2) Tenha 50 pixels de altura e largura;
+A3) Tenha uma borda sólida/contínua, de cor verde, com largura de 2 pixels;
+A4) Tenha um espaçamento EXTERNO de 100 pixels no topo do elemento;
+
+    B) Tenha uma segunda div, que:
+B1) Tenha a cor de fundo preta;
+B2) Tenha a altura de metade da janela de exibição (viewport);
+B3) Ocupe metade da largura do body.
+B4) Tenha uma borda vermelha, com largura de 10 pixels, que seja tracejada (dashed);
+B5) Tenha um espaçamento EXTERNO de 100 pixels na lateral esquerda, e no topo do elemento;*/
+
+.div_a{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border: 2px green solid;
+    margin-top: 100px;
+}
+.div_b{
+background-color: black;
+height: 50vh;
+width: 50%;
+border: 10px red dashed;
+margin-top: 100px;
+margin-left: 100px;
+}
